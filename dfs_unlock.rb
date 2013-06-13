@@ -1,5 +1,8 @@
 # DFS Unlocker for a single IP. Can easily be made to run on multiple units
 # and I'll be updating it to do so some time later.
+# 
+# The DFS Unlock script on the unit will return and tell you if it's already
+# been unlocked
 
 $DFS_Company = ''
 $DFS_Key = ''
