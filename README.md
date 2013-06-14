@@ -17,6 +17,13 @@ Currently a single IP DFS unlocker for NSM5 units to unlock the UNII-2 band. You
 
 Usage: dfs_unlock.rb (subscriber ip)
 
+Frequency
+---------
+
+Finds the Frequency and Bandwidth of a specified AU.
+
+Usage: frequency.rb (au ip)
+
 Planned Additions
 =================
 
