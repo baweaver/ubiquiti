@@ -8,21 +8,30 @@ Firmware Updater
 
 Given the IP of an Access Point, it will update the firmware of all subscriber units. Make sure to have the firmware file downloaded and added in the folder of the script.
 
-Usage: firmware_update.rb (au ip)
+    firmware_update.rb (au ip)
 
 DFS Unlocker
 ------------
 
 Currently a single IP DFS unlocker for NSM5 units to unlock the UNII-2 band. You MUST have legally obtained a key from UBNT to make this application work properly.
 
-Usage: dfs_unlock.rb (subscriber ip)
+    dfs_unlock.rb (subscriber ip)
 
 Frequency
 ---------
 
 Finds the Frequency and Bandwidth of a specified AU.
 
-Usage: frequency.rb (au ip)
+    frequency.rb (au ip)
+
+Config (Beta)
+-------------
+
+Uploads a file of config changes and applies them to a unit. Only paramaters that need to be changed will need to be specified. 
+
+WARNING - This code will eat your hamster if you give it a bad file, I have no idea what would happen. I'll put in safe guards later, but be warned of that.
+
+    config_updater (au ip) (path/to/changes)
 
 Planned Additions
 =================
